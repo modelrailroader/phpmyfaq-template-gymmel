@@ -5,6 +5,8 @@ The template is based on the default template by Thorsten Rinne and adapted by J
 
 The major changes of this template from version to version of phpMyFAQ are described in the [Changelog](/CHANGELOG.md).
 
+We would like to thank Thorsten Rinne and his team for creating, developing, updating and caring for @phpMyFAQ.
+
 LICENSE: Mozilla Public License 2.0
 
 Copyright: 2024 © Jan Harms/Gymnasium Melle
