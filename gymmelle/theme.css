@@ -1,0 +1,114 @@
+/**
+ * phpMyFAQ 4.0 Gymnasium Melle theme
+ * Additional CSS
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public License,
+ * v. 2.0. If a copy of the MPL was not distributed with this file, You can
+ * obtain one at https://mozilla.org/MPL/2.0/.
+ *
+ * @copyright 2024 Gymnasium Melle
+ * @author    Jan Harms <model_railroader@gmx-topmail.de>
+ * @license   https://www.mozilla.org/MPL/2.0/ Mozilla Public License Version 2.0
+ * @since     2024-09-20
+ */
+
+:root,
+[data-bs-theme="light"] {
+    --bs-light: #ffffff;
+    --bs-pmf-nav: #f1f2ed;
+    --bs-pmf-footer: #f1f2ed;
+    --bs-pmf-background: #f1f2ed;
+    --bs-primary: #96e9b0;
+    --bs-info: #40b0ae;
+    --bs-success: #0aa05c;
+    --bs-warning: #e1ca0a;
+    --bs-danger: #f01704;
+}
+
+.pmf-nav-link:hover {
+    color: rgba(0, 0, 0, 0.5) !important;
+    text-decoration: none;
+}
+
+.pmf-nav-link {
+    color: #000000 !important;
+}
+
+.nav-link {
+    color: rgb(140, 144, 147) !important;
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: rgba(140, 144, 147, 0.5) !important;
+    text-decoration: none !important;
+}
+
+.dropdown-item {
+    --bs-dropdown-link-active-bg: #f8f9fa;
+    --bs-dropdown-link-active-color: rgba(0, 0, 0, 0.5);
+}
+
+.dropdown-item:hover {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #6796f5;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #6796f5;
+}
+
+.btn-primary {
+    --bs-btn-color: #000000;
+    --bs-btn-hover-color: #000000;
+    --bs-btn-hover-bg: rgba(155, 233, 176, 0.8);
+    --bs-btn-border-color: #96e9b0;
+    --bs-btn-hover-border-color: rgba(155, 233, 176, 0.8);
+    --bs-btn-active-bg: rgba(155, 233, 176, 0.8);
+    --bs-btn-active-border-color: rgba(155, 233, 176, 0.8);
+    --bs-btn-active-color: #000000;
+}
+
+.btn:hover {
+    text-decoration: none;
+}
+
+.btn-outline-secondary {
+    color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-outline-secondary:hover {
+    color: #ffffff;
+    border-color: #6c757d;
+    text-decoration: none;
+}
+
+.bg-info {
+    background-color: #40b0ae !important;
+}
+
+.pmf-link-category-deck {
+    color: #000000 !important;
+}
+
+.pmf-link-category-deck:hover {
+    color: #000000 !important;
+    text-decoration: none;
+}
+
+.pmf-dropdown-link {
+    color: #000000 !important;
+}
+
+.pmf-dropdown-link:hover, .pmf-dropdown-link:active {
+    color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.pmf-search-tag {
+    border-color: #40b0ae;
+}
