@@ -93,11 +93,11 @@ a:hover {
 }
 
 .pmf-link-category-deck {
-    color: #000000 !important;
+    color: #000000;
 }
 
 .pmf-link-category-deck:hover {
-    color: #000000 !important;
+    color: #000000;
     text-decoration: none;
 }
 
