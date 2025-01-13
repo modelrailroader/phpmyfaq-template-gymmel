@@ -7,4 +7,4 @@
 - Multiple adaptions to new template and folder structure of @phpMyFAQ
 
 
-Copyright: 2024 © Jan Harms/Gymnasium Melle
+Copyright: 2025 © Jan Harms/Gymnasium Melle

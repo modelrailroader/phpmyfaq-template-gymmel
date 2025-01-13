@@ -9,4 +9,4 @@ We would like to thank Thorsten Rinne and his team for creating, developing, upd
 
 LICENSE: Mozilla Public License 2.0
 
-Copyright: 2024 © Jan Harms/Gymnasium Melle
+Copyright: 2025 © Jan Harms/Gymnasium Melle
