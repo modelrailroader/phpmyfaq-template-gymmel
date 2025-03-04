@@ -43,6 +43,14 @@
     text-decoration: none !important;
 }
 
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    border: none;
+    box-shadow: none;
+}
+
 .dropdown-item {
     --bs-dropdown-link-active-bg: #f8f9fa;
     --bs-dropdown-link-active-color: rgba(0, 0, 0, 0.5);
