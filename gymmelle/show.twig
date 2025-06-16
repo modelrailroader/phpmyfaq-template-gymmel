@@ -5,7 +5,14 @@
   <div class="col-md-8">
     <h2 class="mb-4 pb-1 border-bottom">{{ categoryHeader }}</h2>
 
-    {{ categoryContent | raw }}
+    <!-- Andere Behandlung für die TR-Kategorie, weil aktuell (Stand 16-06-2025) keine eigenen FAQ-Beiträge -->
+    {% if categoryHeader == "Einträge in Taschenrechner" %}
+    <div class="mb-5 alert alert-info">In dieser Hauptkategorie gibt es keine Einträge, aber Unterkategorien mit vielen FAQ-Beiträgen:
+      <div class="pt-3">{{ subCategoryContent | raw }}</div>
+    </div>
+    {% else %}
+      {{ categoryContent | raw }}
+    {% endif %}
 
     <p>{{ categoryLevelUp | raw }}</p>
   </div>
