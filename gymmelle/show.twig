@@ -19,14 +19,18 @@
 
   <div class="col-md-4">
     <div class="position-sticky" style="top: 2rem">
-      <div class="p-4 mb-3 bg-light-subtle rounded border">
-        {% if categoryImage is not empty %}
-        <img src="{{ categoryImage }}" alt="{{ categoryFaqsHeader }}" width="140" height="140"
-             class="rounded img-fluid float-end m-1">
-        {% endif %}
-        <h4>{{ categoryFaqsHeader }}</h4>
-        <p class="mb-0 small">{{ categoryDescription }}</p>
-      </div>
+	<div class="p-4 mb-3 bg-light-subtle rounded border d-flex align-items-start">
+		<div class="flex-grow-1">
+			<h4>{{ categoryFaqsHeader }}</h4>
+			<p class="mb-0 small">{{ categoryDescription }}</p>
+		</div>
+		{% if categoryImage is not empty %}
+		<img src="{{ categoryImage }}" 
+         alt="{{ categoryFaqsHeader }}" 
+         class="rounded ms-3" 
+         style="max-width: 140px; max-height: 140px; object-fit: cover;">
+		{% endif %}
+	</div>
 
       <div class="p-4 mb-3 bg-light-subtle rounded border">
         <h4>{{ categorySubsHeader }}</h4>
